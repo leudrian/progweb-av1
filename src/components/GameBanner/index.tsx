@@ -4,6 +4,8 @@
  *          atributos estáticos das imagem (src), titulo e contador de anuncios pelas respectivas props
  */
 
+
+
 export function GameBanner() {
   return (<><a href="" className="relative rounded-lg overflow-hidden">
     <img src="https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-188x250.jpg" alt="" />
