@@ -4,7 +4,12 @@
  *          atributos estáticos das imagem (src), titulo e contador de anuncios pelas respectivas props
  */
 
+interface GameBannerProps {
+  key: any,
+  bannerURL: string,
+  title: string
 
+}
 
 export function GameBanner() {
   return (<><a href="" className="relative rounded-lg overflow-hidden">

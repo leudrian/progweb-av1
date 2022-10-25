@@ -23,7 +23,7 @@ function App() {
       /**
        * (1pt) atribua o conteúdo 'data' para a variável games
        */
-      
+      games.push(data);
     }
     )
   }, [])
@@ -45,6 +45,7 @@ function App() {
          *        - title: contem a string do titulo do jogo
          *        - adsCount: contém o número de ads de dentro de _count
          */
+        /**if (games){}*/
       }
 
       {
